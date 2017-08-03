@@ -1,21 +1,77 @@
 <%- contentFor('hero') %>
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Pictures!</h2>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-      <a href="/" class="btn btn-lg btn-primary">Get Started</a>
-      <a href="/contact" class="btn btn-lg btn-primary">Contact Us</a>
-    </div>
-  </section>
-
-  <main>
-    <div class="container">
-      <div class="jumbotron text-center">
-          About Cora
+<div class="container">
+  <h2>Image Gallery</h2>
+    <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/welcome_7_25.jpg" target="_blank">
+          <img src="../img/welcome_7_25.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+          </div>
+        </a>
       </div>
     </div>
-  </main>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/tired_7_30.jpg" target="_blank">
+          <img src="../img/tired_7_30.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/sleepy_8_2.jpg" target="_blank">
+          <img src="../img/sleepy_8_2.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/chillin_8_2.jpg" target="_blank">
+          <img src="../img/chillin_8_2.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/picDay_8_2.jpg" target="_blank">
+          <img src="../img/picDay_8_2.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../img/picDay2_8_2.jpg" target="_blank">
+          <img src="../img/picDay2_8_2.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 </body>
